@@ -7,7 +7,7 @@ This is where I’m building up the skills I need before starting my **Spanish F
 I’m using this space to:
 - Learn **JavaScript**, **Node.js**, **Firebase**, and **React**
 - Explore **AI integration** (using APIs like OpenAI or similar)
-- Build small **mini-projects** for each topic
+- Build small **mini-projects** for each topic or **notes**
 - Track my **progress and notes**
 
 ---
