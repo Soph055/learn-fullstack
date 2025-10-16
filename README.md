@@ -16,7 +16,7 @@ I’m using this space to:
 
 | Stage | Topic | Goals | Status |
 |-------|--------|--------|--------|
-| 1 | **JavaScript Basics Notes** | 🔄 In Progress |
+| 1 | **JavaScript Basics Notes + to do list project**  | 🔄 In Progress |
 | 2 | **Node.js + Express Project** | ⏳ Upcoming |
 | 3 | **Firebase** | ⏳ Upcoming |
 | 4 | **React** | ⏳ Upcoming |
