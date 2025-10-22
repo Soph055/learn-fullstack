@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>2nd page</title>
+    <meta name="descruotuin" content ="practicing html">
+<meta name="author" content="Sophia Hussain">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="30"> <!-- refresh rate of website is 30 seconds-->
 </head>
+
 <body>
     <h1> This is page 2</h1>
     <a href="https://www.youtube.com/watch?v=1__CAdTJ5JU">
@@ -15,5 +20,19 @@
 <!-- <audio controls autoplay muted loop src ="smth.mp3"> </audio>
 video is same idea. 
 -->
+<br>
+<!--iframe = embed content from another source into an HTML document-->
+<!--<iframe src="https://www.bing.com" width="750" height="250">-->
+<hr>
+
+    <button onclick="doSomething()" style="background-color: aqua;color:black;border-radius: 5px;" >click me</button>
+
+    <p id="test">Hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+    </script>
+
 </body>
 </html>
