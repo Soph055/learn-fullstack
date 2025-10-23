@@ -5,11 +5,12 @@ import clear_icon from "../assets/clear.png";
 
 const Weather = () => {
     const [weatherData, setWeatherData] = useState(false);
+    const [cityInput, setCityInput] = useState('Montreal');
     
     const search = async (city) => {
         try {
-
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
+            // Temporary: Using the hardcoded key while debugging the Vite issue
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${"0adc26dd8a0aa5c1260b09b5cc397f2b"}`;
 
             const response = await fetch(url);
             const data = await response.json();
@@ -24,22 +25,44 @@ const Weather = () => {
   
               });
 
-        } catch {error} {
+        } catch (error){
             console.error("error fetching weather data:", error);
+            setWeatherData(false);
         }
 
     }
 
     useEffect(() => {
         search("Montreal");
+        //search("cityInput");
       }, []);
+
+
+      if (!weatherData) {
+        return (
+            <div className="weather">
+                <div className='search-bar'>
+                    <input 
+                        type="text" 
+                        placeholder="Search for a city..." 
+                        value={cityInput}
+                        onChange={(e) => setCityInput(e.target.value)} 
+                    />
+                    <button onClick={() => search(cityInput)}> Search </button>
+                   {/* <img src={search_icon} alt="Search icon" /> */}
+                </div>
+                <p>Loading weather or enter a city...</p>
+            </div>
+        );
+    }
+
 
   return (
     <div className="weather">
         <div className='search-bar'>
-            <input type="text" placeholder="Search for a city..."/>
-            <button>Search</button>
-            <img src ={search_icon} alt ="Search icon" />
+            <input type="text" placeholder="Search for a city..." value={cityInput} onChange={(e) => setCityInput(e.target.value)}s/>
+            <button onClick={() => search(cityInput)} > Search </button>
+           {/*  <img src ={search_icon} alt ="Search icon" /> */}
 
         </div>
 
