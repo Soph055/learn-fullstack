@@ -15,7 +15,7 @@ I’m using this space to:
 ## 🗺️ Learning Roadmap
 
 | Stage | Topic | Goals | Status | Project |
-|-------|--------|--------|--------|
+|-------|--------|--------|--------|-------|
 | 1 | **JavaScript/HTML/CSS | 🔄 In Progress | **Restaurant Menu** |
 | 2 | **Node.js + Express Project** | ⏳ Upcoming |
 | 3 | **Firebase** | ⏳ Upcoming |
