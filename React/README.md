@@ -5,7 +5,7 @@
 
 ## Features
 - Search and view real-time weather by city
-- Displays temperature, city name, and weather icon
+- Displays temperature and city name 
 - Responsive UI, easy to use
 
 
