@@ -8,17 +8,17 @@ I’m using this space to:
 - Learn **JavaScript**, **Node.js**, **Firebase**, and **React**
 - Explore **AI integration** (using APIs like OpenAI or similar)
 - Build small **mini-projects** for each topic or **notes**
-- Track my **progress and notes**
+- Track my **progress**
 
 ---
 
 ## 🗺️ Learning Roadmap
 
-| Stage | Topic | Goals | Status |
+| Stage | Topic | Goals | Status | Project |
 |-------|--------|--------|--------|
-| 1 | **JavaScript/HTML rough notes + project**  | 🔄 In Progress |
+| 1 | **JavaScript/HTML/CSS | 🔄 In Progress | **Restaurant Menu** |
 | 2 | **Node.js + Express Project** | ⏳ Upcoming |
 | 3 | **Firebase** | ⏳ Upcoming |
-| 4 | **React - basic weather project** | 🔄 In Progress |
+| 4 | **React**| COMPLETED | **Basic weather project** |
 | 5 | **AI Integration** | ⏳ Upcoming |
 | 6 | **Full Stack Project (Spanish App)** | ⏳ Upcoming |
