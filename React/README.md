@@ -2,6 +2,13 @@
 
  A simple React-based weather application that displays current weather for any city using the OpenWeather API.
 
+
+## Features
+- Search and view real-time weather by city
+- Displays temperature, city name, and weather icon
+- Responsive UI, easy to use
+
+
 ## Technologies Used
 - React (created with Vite)
 - JavaScript (ES6+)
