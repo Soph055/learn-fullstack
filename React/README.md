@@ -1,8 +1,8 @@
-#**Weather App**
+# **Weather App**
 
-##A simple React-based weather application that displays current weather for any city using the OpenWeather API.
+## A simple React-based weather application that displays current weather for any city using the OpenWeather API.
 
-##Technologies Used
+## Technologies Used
 - React (created with Vite)
 - JavaScript (ES6+)
 - CSS for styling
