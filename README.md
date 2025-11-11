@@ -19,6 +19,6 @@ I’m using this space to:
 | 1 | **JavaScript/HTML/CSS** | 🔄 In Progress | **Mini Quiz Game** |
 | 2 | **Node.js + Express** | ⏳ Upcoming |
 | 3 | **Firebase** | ⏳ Upcoming |
-| 4 | **React**| COMPLETED | **Basic weather project** |
+| 4 | **React**| COMPLETED | **[Basic Weather App](./React/README.md)** |
 | 5 | **AI Integration** | ⏳ Upcoming |
 | 6 | **Full Stack Project (Spanish App)** | ⏳ Upcoming |
