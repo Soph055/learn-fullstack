@@ -5,9 +5,9 @@ This is where I’m building up the skills I need before starting my **Spanish F
 
 ## 🎯 Goals
 I’m using this space to:
-- Learn **JavaScript**, **Node.js**, **Firebase**, and **React**
+- Learn **JavaScript**, **HTML**, **CSS**, **Node.js**, **Firebase**, and **React**
 - Explore **AI integration** (using APIs like OpenAI or similar)
-- Build small **mini-projects** for each topic or **notes**
+- Build small **mini-projects** for each topic
 - Track my **progress**
 
 ---
@@ -16,8 +16,8 @@ I’m using this space to:
 
 | Stage | Topic | Status | Project |
 |-------|--------|--------|--------|
-| 1 | **JavaScript/HTML/CSS | 🔄 In Progress | **Restaurant Menu** |
-| 2 | **Node.js + Express Project** | ⏳ Upcoming |
+| 1 | **JavaScript/HTML/CSS** | 🔄 In Progress | **Mini Quiz Game** |
+| 2 | **Node.js + Express** | ⏳ Upcoming |
 | 3 | **Firebase** | ⏳ Upcoming |
 | 4 | **React**| COMPLETED | **Basic weather project** |
 | 5 | **AI Integration** | ⏳ Upcoming |
