@@ -43,6 +43,19 @@ body {
     color: #002855;
     margin-bottom: 20px;
     font-size: 2.5rem;
+}
 
+.quiz-header{
+    margin-bottom: 2rem;
+}
 
+#question-text {
+    color: #002855;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.quiz-info{
+    display: flex;
 }
