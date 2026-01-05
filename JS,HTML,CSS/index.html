@@ -5,31 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
-    <link rel="stylesheet" href="style.css"> <!--link:css-->
+    <!-- command used to link css: link:css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- 
+      Main layout wrapper:
+      - Centers the quiz on the page
+      - Limits the max width so content doesn't stretch on large screens
+      - Applies consistent padding for all screens
+    -->
     <div class="container">
 
-        <!--Start Screen-->
+
+        <!-- 
+          Start Screen: one of multiple quiz screens
+          - .screen: marks this div as a "screen" (used for all screens in the app)
+          - .active: marks this as the currently visible screen
+          - id="start-screen": unique identifier for JS to target this specific screen
+        -->
         <div class="screen active" id="start-screen">
+            <!-- Screen heading -->
             <h1>Quiz Time!</h1>
+            <!-- Decription for User-->
             <p>Test your knowledge with these questions</p>
+            <!-- 
+              Start Quiz Button:
+              - id="start-btn": unique identifier for JS to detect clicks
+              - Clicking this will hide the start screen and show the question screen
+              - JS changes the classes (.active) to switch screens
+            -->
             <button id="start-btn">Start Quiz</button>
         </div>
 
 
         <!-- Quiz Screen-->
-        <div class="screen" id="quiz-screen">
+        <div class="screen " id="quiz-screen">
             <div class="quiz-header">
                 <h2 id="question-text">Question Goes Here</h2>
+
                 <div class="quiz-info">
-                    <p>Question <span id="current-question">1</span> of <span>5</span></p>
+                    <p>Question <span id="current-question">1</span> of <span id="total-questions">5</span></p>
                     <p>Score: <span id="score">0</span></p>
                 </div>
             </div>
 
-            <div id="answers-container" class="answers-containers">
+            <div id="answers-container" class="answers-container">
                 <!-- Answer buttons will be inserted here from our js code at some point later-->
             </div>
 
@@ -40,17 +62,17 @@
 
 
         <!--Result Screen-->
-        <div id="result-screen" class="screen">
+        <div class="screen" id="result-screen">
             <h1>Quiz Results</h1>
             <div class="result-info">
                 <p> You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
-                <div id="result-message">Good job !</div>
+                <div id="result-message">Good job!</div>
                 <button id="restart-btn">Restart Quiz</button>
-
             </div>
-
         </div>
-    </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
