@@ -37,7 +37,7 @@ const quizQuestions = [
     question: "What is one major advantage of hydroponics",
     answers: [
         { text: "Uses less water and plants grow faster", correct: true},
-        { text: "Costs less many than growing in soil", correct: false},
+        { text: "Costs less than growing in soil", correct: false},
         { text: "Crops are tastier", correct: false},
         { text: "No major advantage, more or less same as growing on soil", correct: false},
     ],
