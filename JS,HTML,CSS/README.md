@@ -2,6 +2,12 @@
 
 A simple and interactive **Hydropnic Quiz Game** based on my own personal hobby of hydroponics. It is built with **HTML, CSS, and JavaScript**. Test your knowledge with multiple-choice questions and see your score instantly! This project also includes a **Dockerfile** to easily containerize and run the app.
 
+## Demo
+
+https://github.com/user-attachments/assets/369e82b8-a60e-442d-9238-565e5642be29
+
+
+
 ## Features
 
 - Interactive multiple-choice quiz  
@@ -34,3 +40,5 @@ To run the quiz game using Docker, make sure you have the project code on your c
    
 4. **Open the app in your browser**
    Visit http://localhost to play the quiz game.
+
+
