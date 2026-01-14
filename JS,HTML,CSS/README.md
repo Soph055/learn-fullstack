@@ -17,3 +17,18 @@ A simple and interactive **Hydropnic Quiz Game** based on my own personal hobby 
 - Progress Tracking: The progress bar and question counter update as you advance.
 - Results Screen: After the last question, your total score and a performance message are displayed.
 - Restart Quiz: Clicking "Restart Quiz" resets everything so you can play again.
+
+### Run with Docker
+
+To run the quiz game using Docker, make sure you have the project code on your computer (either by cloning the GitHub repo or downloading it). Then follow these steps:
+
+1. **Build the Docker image**  
+   Open a terminal in the project folder and run:  
+   docker build -t quiz-game .
+
+2. **Run the container**
+   Start the app in a container and map it to your local port 80:
+   docker run -p 80:80 quiz-game
+   
+3. **Open the app in your browser**
+   Visit http://localhost to play the quiz game.
