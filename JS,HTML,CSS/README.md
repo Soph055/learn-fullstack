@@ -33,12 +33,13 @@ To run the quiz game using Docker, make sure you have the project code on your c
    
    docker build -t quiz-game .
 
-3. **Run the container** 
+3. **Run the container**
+
    Start the app in a container and map it to your local port 80:
    
    docker run -p 80:80 quiz-game
    
-4. **Open the app in your browser**
+5. **Open the app in your browser**
    Visit http://localhost to play the quiz game.
 
 
